@@ -4,7 +4,7 @@
 
 Open terminal and write:
 ```
-mix archive.install https://github.com/gabrielgatu/ejabberd_task/raw/master/archives/ejabberd_task-0.0.1.ez
+mix archive.install https://github.com/gabrielgatu/ejabberd_task/raw/master/archives/ejabberd_task-0.1.0.ez
 ```
 
 ### Tasks
