@@ -1,24 +1,15 @@
-# EjabberdTask
+# Mix tasks for ejabberd
 
-**TODO: Add description**
+### Installation
 
-## Installation
+Open terminal and write:
+```
+mix archive.install https://github.com/gabrielgatu/ejabberd_task/raw/master/archives/ejabberd_task-0.0.1.ez
+```
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
+### Tasks
 
-  1. Add `ejabberd_task` to your list of dependencies in `mix.exs`:
+Use `mix -h` and  `mix help [task-name]` to get more informations about tasks.
 
-    ```elixir
-    def deps do
-      [{:ejabberd_task, "~> 0.1.0"}]
-    end
-    ```
-
-  2. Ensure `ejabberd_task` is started before your application:
-
-    ```elixir
-    def application do
-      [applications: [:ejabberd_task]]
-    end
-    ```
-
+**Currently supported**:
+- ejabberd.new - Create a new ejabberd project
